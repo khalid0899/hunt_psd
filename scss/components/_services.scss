@@ -1,0 +1,122 @@
+#services{
+      position: relative;
+}
+
+.service_title{
+      position: relative;
+      h3{
+            font-size: 35px;
+            color:#111111;
+      }
+      p{
+            font-size: 15.3px;
+            color: #353535;
+            line-height: 1.714;
+      }
+      &:after{
+            position: absolute;
+            height: 880px;
+            width: 1px;
+            left: 51.5%;
+            top: 204%;
+            background:url(../images/service_line.png);
+            content: "";
+      }
+}
+.service_part{
+      padding: 90px 0;
+}
+.profession {
+      margin-top: 19.8%;
+}
+.work_img{
+      background: #f1f1f1;
+      height: 80px;
+      width: 80px;
+      border-radius: 50%;
+      line-height: 80px;
+     line-height: 80px;
+     margin-left: 36%;
+     margin-top: 35%;
+     img{
+      padding: 20px;
+     }
+      
+}
+.profession_content{
+      background:#f1f1f1 ;
+      padding: 54px 29px;  
+      position: relative;   
+       p{
+            font-size: 14.4px;
+            color: #353535;
+            line-height: 1.8;
+            font-weight: 600;
+      }
+      &::after{
+            position: absolute;
+            height: 40px;
+            width: 40px;
+            top: 40%;
+            left: -18px;
+            background: #f1f1f1;
+            content: "";
+            transform: rotate(45deg);
+      }
+}
+.design_content{
+      background:#f1f1f1 ;
+      padding: 54px 29px;  
+      position: relative;   
+       p{
+            font-size: 14.4px;
+            color: #353535;
+            line-height: 1.8;
+            font-weight: 600;
+      }
+      &::after{
+            position: absolute;
+            height: 40px;
+            width: 40px;
+            top: 40%;
+            right: -18px;
+            background: #f1f1f1;
+            content: "";
+            transform: rotate(45deg);
+      }  
+}
+.service_prev{
+      position: absolute;
+      bottom: 21px;
+      left: 49.3%;
+      height: 40px;
+      width: 40px;
+      line-height: 40px;
+      text-align: center;
+      border: 1px solid #353535;
+      border-radius: 50%;
+      transition: .5s;
+      &:hover{
+            background: #fec600;
+            border: 1px solid transparent;
+      }
+}
+.service_next{
+      position: absolute;
+      top: 160px;
+      left: 49.3%;
+      height: 40px;
+      width: 40px;
+      line-height: 40px;
+      text-align: center;
+      border: 1px solid #353535;
+      border-radius: 50%;
+      &:hover{
+            background: #fec600;
+            border: 1px solid transparent;
+      }
+}
+#services .slick-center .work_img{
+      background: #fec600;
+      transform: scale(1.2);
+}

@@ -1,0 +1,105 @@
+/* start banner style
+   ************************/
+#pricing{
+      padding: 20px 0; 
+}
+.pricing_heading{
+      h3{
+            font-size: 35px;
+            color:#111111;
+      }
+      p{
+            font-size: 15.4px;
+            color: #353535;
+            line-height: 1.714;
+      }
+}
+.pricing_item{
+      margin-top: 60px;
+      background: #f1f1f1;
+      transition: .5s;
+      &:hover .price_term,&:hover .per_month,&:hover .join_now{
+       background: #fec600;
+      }
+      &:hover .price_term h5,&:hover .per_month h4,&:hover .per_month span,&:hover .join_now a{
+            color: #4c3e0d;
+      }
+     &:hover .per_month::after{
+      border: 2px solid #fec600;
+     }
+}
+.price_term{
+      background: #353535;
+      clip-path: polygon(0 0, 100% 0, 100% 76%, 0 100%);
+      padding: 40px 0 120px 0;
+      transition: .5s;
+      h5{
+            font-size: 20px;
+            color: #fff;     
+      }
+}
+.per_month{
+      height: 120px;
+      width: 120px;
+      background:#353535;
+      border-radius: 50%;
+      padding: 25px 0;
+      position: relative;
+      z-index: 100;
+      margin-top: -95px;
+      margin-left: 35%;
+      transition: .5s;
+      h4{
+            font-size: 29px;
+            color: #fff;
+            margin-bottom: 1px;
+      }
+      span{
+            font-size: 16px;
+            color: #fff;
+      }
+      &::after{
+            position: absolute;
+            height: 133px;
+            width: 133px;
+            border: 2px solid #353535;
+            left: -8px;
+            top: -7px;
+            content: "";
+            border-radius: 50%;
+
+      }
+      &::before{
+            position: absolute;
+            height: 130px;
+            width: 130px;
+            border: 6px solid #fff;
+            left: -6px;
+            top: -5px;
+            content: "";
+            border-radius: 50%;
+      }
+}
+.topices{
+      margin-top: 30px;
+      
+      li{
+            display: block;
+            font-size: 15px;
+            margin-bottom: 20px;
+            font-weight: 600;
+      }
+   } 
+   .join_now{
+      padding: 28px 0;
+      background: #353535;
+      clip-path: polygon(0 35%, 100% 1%, 100% 100%, 0 100%);
+      transition: .5;
+      a{
+            margin-top: 14px;
+            font-size: 16px;
+            color: #fff;
+      }
+   }
+/* end banner style
+   ************************/

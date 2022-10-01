@@ -1,0 +1,52 @@
+/* start banner style
+   ************************/
+.carousel-item{
+      height: 100vh;
+      position: relative;
+      z-index: 10;
+      clip-path: polygon(0 0, 100% 0, 100% 94%, 0% 100%);
+      &::after{
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            left: 0;
+            top: 0;
+            background:#12141ccc;
+            content: "";    
+      }
+}
+.banner_content{
+      z-index: 11111;
+      position: absolute;
+      left: 18%;
+      bottom: 30%;
+     h2{
+      font-size: 36px;
+      color: #fff;
+     }
+     h1{
+      font-size: 55px;
+      color:#fec600;
+      text-transform: uppercase;
+     }
+     p{
+      font-size: 14px;
+      color: #fff;
+      margin-bottom: 35px;
+     }
+     a{
+      border: 1px solid #fff;
+      padding: 10px 20px;
+      font-size: 16px;
+      color: #fff;
+      margin: auto 7px;
+      transition: .5s;
+      &:hover{
+            border: 1px solid transparent;
+            background: #fec600;
+            color: #222222;
+           }
+     }      
+}
+/* end banner style
+   ************************/

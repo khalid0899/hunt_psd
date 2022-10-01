@@ -1,0 +1,27 @@
+#counter{
+      background:linear-gradient(to left, #171513, #171513ac), url("../images/counter.jpg") no-repeat center / cover;
+      clip-path: polygon(0 19%, 100% 0, 100% 80%, 0% 100%);
+      padding: 60px 0;
+}
+.extra{
+      transform: rotate(-2.1deg);
+}
+.counter_item{
+      padding: 20px 30px;
+      border: 1px solid #fff;
+      transform: skew(-10deg);
+      h4{
+            font-size: 30px;
+            color:#ffff;
+            transform: skew(10deg);
+      }
+      h5{
+            font-size: 20px;
+            color: #ffff;
+            line-height: 1.714;
+            transform: skew(10deg);
+      }
+     
+
+}
+
